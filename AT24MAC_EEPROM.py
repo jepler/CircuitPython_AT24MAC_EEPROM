@@ -20,7 +20,7 @@ from adafruit_bus_device.i2c_device import I2CDevice
 from micropython import const
 
 __version__ = "0.0.0+auto.0"
-__repo__ = "https://github.com/facts-engineering/CircuitPython_AT24MAC_EEPROM"
+__repo__ = "https://github.com/facts-engineering/CircuitPython_AT24MAC_EEPROM.git"
 
 _EEPROM_LENGTH = const(256)  # bytes
 _PAGE_SIZE = const(16)
